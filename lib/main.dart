@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:to_do_app/SERVICES/theme_services.dart';
 import 'package:to_do_app/UI/home_page.dart';
 import 'package:to_do_app/UI/theme.dart';
 
@@ -24,7 +25,8 @@ class MyApp extends StatelessWidget {
       // ),
       theme: Themes.lightTheme,
       darkTheme: Themes.darkTheme,
-      themeMode: ThemeMode.system,
+      // themeMode: ThemeMode.system,
+      themeMode: ThemeService().theme,
 
     home: HomePage(),
     );
