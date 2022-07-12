@@ -1,4 +1,3 @@
-// ignore: file_names
 import 'package:flutter/material.dart';
 // import 'package:flutter/services.dart';
 
@@ -13,7 +12,6 @@ const Color darkGreyClr = Color(0xFF121212);
 const Color white = Colors.white;
 const primaryClr = blueishClr;
 const Color darkHeaderClr =  Color(0xFF424242);
-
 
 class Themes {
   // static const SystemUiOverlayStyle light = SystemUiOverlayStyle(
@@ -48,6 +46,5 @@ class Themes {
     primaryColor: primaryClr,
     // scaffoldBackgroundColor: Color(0xFFFFFFFF),
     colorScheme: ColorScheme.light(),
-
   );
 }

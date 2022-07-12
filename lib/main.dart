@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:to_do_app/UI/home_page.dart';
 import 'package:to_do_app/UI/theme.dart';
 
-
-
 void main() {
   runApp(const MyApp());
 }
